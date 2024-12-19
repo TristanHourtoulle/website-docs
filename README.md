@@ -1,99 +1,94 @@
-## AriaDocs - Documentation Template
+![image](https://github.com/user-attachments/assets/729191af-f314-4f64-9e65-af76a320f2e9)
 
-This feature-packed documentation template, built with Next.js, offers a sleek and responsive design, perfect for all your project documentation needs.
+---
 
-<img src="./public/public-og.png" />
+# Edukai Documentation
 
-<br/>
+Bienvenue dans le dépôt de la documentation d'Edukai ! Ce site, basé sur la template **Aria-Docs**, centralise la documentation de tous les aspects du projet Edukai :
 
-Here are all versions of the AriaDocs template, each crafted for specific use cases:
+- **Website** (actuellement disponible)
+- Backend (à venir)
+- Application mobile (à venir)
+- Dashboard (à venir)
 
+---
+  
+## Présentation
 
-- **Advanced Docs:** A comprehensive template offering extensive features for in-depth documentation needs. Perfect for larger projects that require detailed explanations and advanced configurations.  
-  [Explore the Advanced Docs](https://github.com/nisabmohd/Aria-Docs/tree/master)
+Edukai est un projet visant à faciliter l'apprentissage et l'organisation à travers une suite d'outils innovants. Ce site de documentation fournit des informations détaillées pour les contributeurs et les utilisateurs techniques du projet.
 
-- **Lite Version:** A streamlined, no-frills template perfect for straightforward documentation needs.  
-  [Explore the Lite Version](https://github.com/nisabmohd/Aria-Docs/tree/minimal-docs)
+![image](https://github.com/user-attachments/assets/548b64ff-61d2-41c0-9e33-d46f8df3c16f)
 
-- **Version with Versioning:** A powerful option for projects that require historical documentation tracking. Manage multiple versions of your docs effortlessly.  
-  [Check out the Versioning Feature](https://github.com/nisabmohd/Aria-Docs/tree/version_docs)
+---
 
-- **i18n Support Version (WIP):** Designed for international audiences, this version will offer comprehensive multilingual support.  
-  [Preview the i18n Support](https://github.com/nisabmohd/Aria-Docs/tree/i18n-support)
+## Fonctionnalités clés
 
-### Quick Start
+| **Fonctionnalité**             | **Description**                                          |
+|--------------------------------|----------------------------------------------------------|
+| **MDX Support**                | Créez des documentations interactives avec MDX.          |
+| **Pages imbriquées**           | Organisez le contenu de manière hiérarchique.            |
+| **Table des matières**         | TOC auto-générée pour une navigation facile.             |
+| **Mode clair & sombre**        | Basculez entre les thèmes clair et sombre.               |
+| **Recherche intégrée**         | Trouvez rapidement du contenu grâce à la recherche.      |
+| **SEO optimisé**               | Structure conçue pour un référencement optimal.          |
+| **Support de composants**      | Intégrez des composants personnalisés dans la doc.       |
+| **Copie de code**              | Copiez facilement des blocs de code.                     |
+| **Mise en avant dynamique**    | Mettez en avant les sections actives dans le TOC.        |
 
-You can create a new Ariadocs project using the command:
+---
 
-```bash
-npx create-aria-doc <project-directory>
-```
+## Installation rapide
 
-### Expected Output
-
-When you run the CLI, you can expect an output similar to this:
-
-```
-Creating a new Ariadocs project in /path/to/your/project from the master branch...
-Cloning Master (Full Documentation)...
-Ariadocs project successfully created in /path/to/your/project!
-
-Next steps:
-1. Navigate to your project directory:
-   cd <project-directory>
-2. Install dependencies:
-   npm install
-3. Start the development server:
-   npm run dev
-```
-
-## Getting Started
-
-First, run the development server:
+Pour démarrer le projet en local :
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Cloner le dépôt
+git clone [https://github.com/EdukaiFR/edukai-docs.git](https://github.com/TristanHourtoulle/website-docs/)
+
+# Naviguer dans le répertoire
+cd website-docs
+
+# Installer les dépendances
+pnpm install
+
+# Lancer le serveur de développement
+pnpm run dev
 ```
 
+Le site sera accessible à l'adresse : [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Déploiement sur Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Pour déployer ce site, utilisez la plateforme [Vercel](https://vercel.com/). Cliquez sur le bouton ci-dessous pour démarrer le déploiement :
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/EdukaiFR/edukai-docs)
 
-## Key Features
+---
 
-| **Feature**                   | **Description**                                          |
-|-------------------------------|----------------------------------------------------------|
-| MDX Support                   | Write interactive documentation with MDX.                |
-| Nested Pages                  | Organize content in a nested, hierarchical structure.    |
-| Blog Section                  | Include a dedicated blog section.                        |
-| Table of Contents             | Auto-generated TOC for easy navigation.                  |
-| Pagination                    | Split content across multiple pages.                     |
-| Syntax Highlighting           | Highlight code for better readability.                   |
-| Code Line Highlighting & Titles | Highlight specific lines with descriptive titles.      |
-| Interactive Code Blocks       | Language-specific and interactive code display.          |
-| Custom Components             | Embed custom, reusable components in your docs.          |
-| Light & Dark Mode             | Toggle between light and dark themes.                    |
-| Search Functionality          | Quickly find content with a built-in search.             |
-| Code Switcher                 | Switch between code languages or variations.             |
-| Code Copy                     | Copy code blocks with a single click.                    |
-| TOC Observer Highlight        | Highlight active sections in the TOC as you scroll.      |
-| Static Site Generation        | Generate a static, high-performance site.                |
-| SEO-Optimized                 | Structured for optimal search engine indexing.           |
+## Structure actuelle
 
+Actuellement, seule la documentation pour le **Website** est disponible. Les autres sections (Backend, Mobile, Dashboard) seront ajoutées prochainement.
 
-## Additional Themes
+---
 
-<img src="./public/halloween.png" alt="halloween" />
-<img src="./public/nebula.png" alt="halloween" />
-<img src="./public/ocean.png" alt="halloween" />
+## Contribution
+
+Les contributions sont les bienvenues pour enrichir la documentation ! Si vous souhaitez participer :
+
+1. Forkez le dépôt.
+2. Créez une branche pour votre contribution : `git checkout -b feature/ma-contribution`.
+3. Faites vos modifications et soumettez une pull request.
+
+Merci pour votre intérêt et votre aide !
+
+---
+
+## Licence
+
+Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus d'informations.
+
+---
+
+Pour toute question ou suggestion, contactez-nous à [edukai.support@exemple.com](mailto:edukai.support@exemple.com).
